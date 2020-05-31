@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:title="General">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="archiveSwitch"
+            android:summary="Show archived projects"
+            android:title="Archive" />
+        <EditTextPreference
+            android:defaultValue="false"
+            android:key="prefixURL"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Prefix of URL" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
